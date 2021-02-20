@@ -4,7 +4,7 @@ import time
 
 app = pywinauto.application.Application()
 
-path = 'Lab1_Seldin\\bin\\Debug\\Lab1_Seldin.exe'
+path = '.\\Lab1_Seldin\\bin\\Debug\\Lab1_Seldin.exe'
 
 app.start(path)
 time.sleep(1)
